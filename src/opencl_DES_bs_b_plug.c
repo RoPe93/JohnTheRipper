@@ -342,6 +342,7 @@ void DES_bs_select_device(struct fmt_main *fmt)
 		fmt -> params.min_keys_per_crypt = local_work_size * DES_BS_DEPTH;
 	}
 }
+
 static void build_salt(WORD salt) {
 	unsigned int new = salt;
 	unsigned int old;
